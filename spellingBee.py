@@ -1,3 +1,5 @@
+# Solution to the classic puzzle here: https://fivethirtyeight.com/features/can-you-solve-the-vexing-vexillology/
+
 import re
 import cProfile
 from itertools import combinations
