@@ -1,3 +1,5 @@
+# Solution to the classic puzzle here: https://fivethirtyeight.com/features/can-you-find-a-number-worth-its-weight-in-letters/
+
 ones = {1:  'ONE',
         2:  'TWO',
         3:  'THREE',
