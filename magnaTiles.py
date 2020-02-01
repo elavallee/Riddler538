@@ -20,14 +20,17 @@ def getArea(w, l): return (1 / 2) * w * l
 # volume under the tiles
 def volume(A, h, N): return (1 / 2) * A * h * N
 
+# get the height of the pyramid
+def getHeight(l, x): return math.sqrt(l**2 - x**2)
+
 def getMax():
+    "Return the number of tiles that gives the maximum volume under them."
     alphas = [getAlpha(x) for x in range(3, 12)]
     w = getW(l)
     xs = [getX(x, w) for x in alphas]
     A = getArea(w, l)
-    vs = [volume(A, math.sqrt(l**2 - x**2), n) for x, n in zip(xs, range(3, 12))]
+    vs = [volume(A, getHeight(l, x), n) for x, n in zip(xs, range(3, 12))]
     ix = vs.index(max(vs))
     return ix+3
 
 print(getMax())
-
