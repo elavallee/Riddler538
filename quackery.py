@@ -1,3 +1,5 @@
+# Solution to the classic puzzle here: https://fivethirtyeight.com/features/can-you-track-the-delirious-ducks/
+
 import random
 from statistics import mean
 
