@@ -1,3 +1,4 @@
+# Solution to the classic puzzle here: https://fivethirtyeight.com/features/can-you-roll-the-perfect-bowl/
 import math
 
 # assume a length of the tiles, this length is from the midpoint of the
