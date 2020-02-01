@@ -31,6 +31,6 @@ def getMax():
     A = getArea(w, l)
     vs = [volume(A, getHeight(l, x), n) for x, n in zip(xs, range(3, 12))]
     ix = vs.index(max(vs))
-    return ix+3
+    return ix + 3
 
 print(getMax())
