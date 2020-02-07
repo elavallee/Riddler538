@@ -23,7 +23,7 @@ def getArea(w, l): return (1 / 2) * w * l
 def getTheta(x, l): return math.acos(x / l)
 
 # volume under the tiles
-def volume(A, h, N, theta): return (1 / 2) * A * math.cos(theta) * h * N
+def volume(A, h, N, theta): return (1 / 3) * A * math.cos(theta) * h * N
 
 # get the height of the pyramid
 def getHeight(l, x): return math.sqrt(l**2 - x**2)
